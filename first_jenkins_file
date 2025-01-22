@@ -5,6 +5,7 @@ pipeline {
   stages {
     stage('test01') {
       steps {
+        sh 'rm -rf newfolder'
         sh 'mkdir newfolder'
         sh 'touch newfile.txt'
       }
