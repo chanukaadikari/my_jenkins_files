@@ -6,7 +6,6 @@ pipeline {
     stage('test01') {
       steps {
         sh 'mkdir newfolder'
-        Sh 'cd newfolder'
         sh 'touch newfile.txt'
       }
     }
