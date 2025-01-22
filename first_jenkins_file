@@ -5,7 +5,8 @@ pipeline {
   stages {
     stage('test01') {
       steps {
-        sh 'echo "Hello World"'
+        sh 'mkdir newfolder'
+        sh 'touch newfile.txt'
       }
     }
   }
